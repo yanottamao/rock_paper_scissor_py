@@ -5,13 +5,15 @@ def choices():
     global comp_choices
     global plyr_choices
     comp_choices = random.randint(1, 3)
-    if comp_choices == 1:
-        print("Rock")
-    elif comp_choices == 2:
-        print("Paper")
-    elif comp_choices == 3:
-        print("Scissor")
-    print(comp_choices)
+
+    # Helper
+    # if comp_choices == 1:
+    #     print("Rock")
+    # elif comp_choices == 2:
+    #     print("Paper")
+    # elif comp_choices == 3:
+    #     print("Scissor")
+    # print(comp_choices)
 
     print("1. Rock")
     print("2. Paper")
@@ -23,25 +25,25 @@ def choices():
 
 def win_condition():
     if comp_choices == 1 and plyr_choices == 1:
-        print("Draw")
+        print("Result: Draw")
     elif comp_choices == 1 and plyr_choices == 2:
-        print("Player Wins")
+        print("Result: Player Wins")
     elif comp_choices == 1 and plyr_choices == 3:
-        print("Computer Wins")
+        print("Result: Computer Wins")
 
     elif comp_choices == 2 and plyr_choices == 1:
-        print("Computer Wins")
+        print("Result: Computer Wins")
     elif comp_choices == 2 and plyr_choices == 2:
-        print("Draw")
+        print("Result: Draw")
     elif comp_choices == 2 and plyr_choices == 3:
-        print("Player Wins")
+        print("Result: Player Wins")
 
     elif comp_choices == 3 and plyr_choices == 1:
-        print("Player Wins")
+        print("Result: Player Wins")
     elif comp_choices == 3 and plyr_choices == 2:
-        print("Computer Wins")
+        print("Result: Computer Wins")
     elif comp_choices == 3 and plyr_choices == 3:
-        print("Draw")
+        print("Result: Draw")
 
 
 def main():

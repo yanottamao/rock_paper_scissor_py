@@ -66,7 +66,7 @@ def win_condition():
 
 
 def main():
-    print("Hello Rock Paper Scissor")
+    print("\nHello Rock Paper Scissor\n")
     choices()
     win_condition()
 

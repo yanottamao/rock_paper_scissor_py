@@ -5,7 +5,7 @@ def choices():
     global comp_choices
     global plyr_choices
     comp_choices = random.randint(1, 3)
-
+    print("Player choice:")
     print("1. Rock")
     print("2. Paper")
     print("3. Scissor")

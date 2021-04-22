@@ -21,37 +21,37 @@ def win_condition():
     elif comp_choices == 1 and plyr_choices == 2:
         print("\nComputer: Rock")
         print("Player: Paper")
-        print("Result: Player Wins")
+        print("\nResult: Player Wins")
     elif comp_choices == 1 and plyr_choices == 3:
         print("\nComputer: Rock")
         print("Player: Scissor")
-        print("Result: Computer Wins")
+        print("\nResult: Computer Wins")
 
     elif comp_choices == 2 and plyr_choices == 1:
         print("\nComputer: Paper")
         print("Player: Rock")
-        print("Result: Computer Wins")
+        print("\nResult: Computer Wins")
     elif comp_choices == 2 and plyr_choices == 2:
         print("\nComputer: Paper")
         print("Player: Paper")
-        print("Result: Draw")
+        print("\nResult: Draw")
     elif comp_choices == 2 and plyr_choices == 3:
         print("\nComputer: Paper")
         print("Player: Scissor")
-        print("Result: Player Wins")
+        print("\nResult: Player Wins")
 
     elif comp_choices == 3 and plyr_choices == 1:
         print("\nComputer: Scissor")
         print("Player: Rock")
-        print("Result: Player Wins")
+        print("\nResult: Player Wins")
     elif comp_choices == 3 and plyr_choices == 2:
         print("\nComputer: Scissor")
         print("Player: Paper")
-        print("Result: Computer Wins")
+        print("\nResult: Computer Wins")
     elif comp_choices == 3 and plyr_choices == 3:
         print("\nComputer: Scissor")
         print("Player: Scissor")
-        print("Result: Draw")
+        print("\nResult: Draw")
 
 
 def main():

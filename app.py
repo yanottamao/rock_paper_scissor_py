@@ -2,9 +2,11 @@ import random
 
 
 def choices():
+    print("Computer turn...")
     global comp_choices
     global plyr_choices
     comp_choices = random.randint(1, 3)
+    print("\nPlayer turn...")
     print("Player choice:")
     print("1. Rock")
     print("2. Paper")
@@ -17,7 +19,7 @@ def win_condition():
     if comp_choices == 1 and plyr_choices == 1:
         print("\nComputer: Rock")
         print("Player: Rock")
-        print("Result: Draw")
+        print("\nResult: Draw")
     elif comp_choices == 1 and plyr_choices == 2:
         print("\nComputer: Rock")
         print("Player: Paper")
